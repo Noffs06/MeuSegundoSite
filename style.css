@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+body{
+    background-image: url(img/taxidog2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.cadastro p{
+    font-family: "Signika Negative", cursive;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    width: 9%;
+}
+
+.cadastro button{
+    color: red;
+    width: 6%;
+}
+
+.texto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.texto h1{
+    font-family: "Signika Negative", cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: 700;
+    color: aqua;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.texto p{
+    font-family: "Signika Negative", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: aqua;
+    background-color: black;
+    width: 25%;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.botaoLogin{
+    width: 5%;
+}
+
+.rowfunc{
+    display: flex;
+    flex-direction: row;
+    font-family: "Signika Negative", cursive;
+    font-weight: 700;
+}
+
+.columnteste img{
+    display: flex;
+    justify-content: center;
+    width: 3rem;
+    position: relative;
+    font-family: "Signika Negative", cursive;
+}
+
+.imagem{
+    width: 5%;
+}
+
+.tabela p{
+    font-family: "Signika Negative", cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tabela img{
+    width: 30%;
+}
